@@ -53,12 +53,13 @@
     <UnityVersion>2021.1.15f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Assets\_Scripts\PlayerMove.cs" />
-    <Compile Include="Assets\TImerScript.cs" />
     <Compile Include="Assets\DimensionManager.cs" />
-    <Compile Include="Assets\_Scripts\Interactable.cs" />
-    <Compile Include="Assets\Interact_Pickup.cs" />
+    <Compile Include="Assets\_Scripts\PlayerMove.cs" />
     <Compile Include="Assets\PlayerInteract.cs" />
+    <Compile Include="Assets\Interact_Pickup.cs" />
+    <Compile Include="Assets\Interact_Deposit.cs" />
+    <Compile Include="Assets\_Scripts\Interactable.cs" />
+    <Compile Include="Assets\TimerScript.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

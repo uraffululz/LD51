@@ -321,9 +321,10 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/VSSettingsProvider.ref.dll"
 "Assets/DimensionManager.cs"
+"Assets/Interact_Deposit.cs"
 "Assets/Interact_Pickup.cs"
 "Assets/PlayerInteract.cs"
-"Assets/TImerScript.cs"
+"Assets/TimerScript.cs"
 "Assets/_Scripts/Interactable.cs"
 "Assets/_Scripts/PlayerMove.cs"
 -langversion:8.0

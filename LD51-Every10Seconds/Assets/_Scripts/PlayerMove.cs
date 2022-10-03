@@ -6,8 +6,9 @@ using UnityEngine.InputSystem;
 public class PlayerMove : MonoBehaviour {
 
 	Rigidbody rb;
+	public Animator anim;
  
-	[SerializeField] bool canMove;
+	public bool canMove;
 	[SerializeField] float moveSpeed;
 	//[SerializeField] float maxSpeed;
 	Vector3 moveDir;
@@ -15,19 +16,25 @@ public class PlayerMove : MonoBehaviour {
 
     void Start() {
         rb = GetComponent<Rigidbody>();
+
+		canMove = false;
+		///canMove = true;
     }
 
    
 
     void Update() {
-		if (moveDir != Vector3.zero) {
+		if (canMove && moveDir != Vector3.zero) {
 			transform.LookAt(transform.position + moveDir);
 			//rb.AddForce(Vector2.right * moveDir.x * moveSpeed);
 			rb.position += moveDir * moveSpeed * Time.deltaTime;
+			anim.SetBool("Walking", true);
+
 		}
 		else {
 			//Maybe not necessary?
 			rb.position = transform.position;
+			anim.SetBool("Walking", false);
 		}
 
 		//Mathf.Clamp(rb.velocity.x, -maxSpeed, maxSpeed);

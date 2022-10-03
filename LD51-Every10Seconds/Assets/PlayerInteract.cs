@@ -5,9 +5,10 @@ using UnityEngine.InputSystem;
 
 public class PlayerInteract : MonoBehaviour {
  
-	[SerializeField] bool isInteracting;
+	public bool isInteracting;
 	//[SerializeField] bool inInteractArea;
-	[SerializeField] GameObject interactableObject;
+	public GameObject interactableObject;
+	public GameObject carriedObject;
 
 
     void Start() {
@@ -20,7 +21,7 @@ public class PlayerInteract : MonoBehaviour {
     }
 
 
-	void OnTriggerEnter (Collider other) {
+	void OnTriggerStay (Collider other) {
 		//inInteractArea = true;
 		if (other.CompareTag("Pickup")) {
 			interactableObject = other.gameObject;
@@ -38,10 +39,10 @@ public class PlayerInteract : MonoBehaviour {
 
 	void OnInteract(InputValue pkp) {
 		if (isInteracting) {
-			isInteracting = false;
-			interactableObject.GetComponent<Interactable>().Disengage();
+			//isInteracting = false;
+			carriedObject.GetComponent<Interactable>().Disengage();
 		}
-		else if (!isInteracting && interactableObject != null) {
+		else if (!isInteracting && interactableObject != null && carriedObject == null) {
 			isInteracting = true;
 			interactableObject.GetComponent<Interactable>().Interact();
 		}
