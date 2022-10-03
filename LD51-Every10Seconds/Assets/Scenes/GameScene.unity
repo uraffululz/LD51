@@ -204,17 +204,21 @@ MonoBehaviour:
 
     Unfortunately, the homing displacement
     module has needed repairing ever since the..."mailman incident", and constantly
-    shifts realities against your wishes.
-
-    There is a pattern, though, in that
-    it seems to take a 10-second interval to charge and fire. Hurry, so you can get
-    back to work on conquering the world.
+    shifts realities against your will. Oh well, you''ll fix it later.
 
 
-    <color=#ffffffff>WASD to move
+    Set
+    things right by picking up the various items scattered by your doppelganger,
+    and re-assembling the projects laid out by your other selves.
 
-    E
-    to Pickup/Drop/Combine/Deposit items
+    Hurry, so
+    you can get back to work on conquering the world.
+
+
+    <color=#ffffffff>WASD
+    to move
+
+    E to Pickup/Drop/Combine/Deposit items
 
     </color>'
 --- !u!222 &36338699
@@ -410,15 +414,15 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 2916884127550031458}
+    m_TransformParent: {fileID: 7753789828038302491}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 715425e2e3243154999af8f353417886, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 715425e2e3243154999af8f353417886, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.52
+      value: -3.5
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 715425e2e3243154999af8f353417886, type: 3}
       propertyPath: m_LocalPosition.y
@@ -426,7 +430,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 715425e2e3243154999af8f353417886, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 7.99
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 715425e2e3243154999af8f353417886, type: 3}
       propertyPath: m_LocalRotation.w
@@ -549,7 +553,8 @@ MonoBehaviour:
     as soon as the homing displacement module is repaired. After all, none of you
     wishes to repeat the "mailman incident".
 
-    Yes, it seems that''s a constant....'
+    Yes, it seems that''s an inter-dimensional
+    constant....'
 --- !u!222 &192618467
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -587,8 +592,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 840233524}
-  - {fileID: 7753789828038302491}
   - {fileID: 7415178777709120820}
+  - {fileID: 7753789828038302491}
   - {fileID: 2916884127550031458}
   - {fileID: 604626696}
   m_Father: {fileID: 0}
@@ -692,7 +697,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Interfictions
+  m_Text: Interspersed
 --- !u!222 &323461246
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1406,10 +1411,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -3187,11 +3192,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8679997701609891789}
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 4.1777186, y: 0, z: 3.3672206}
+  m_LocalPosition: {x: 6.89, y: 0, z: 7.64}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 7753789828038302491}
-  m_RootOrder: 3
+  m_Father: {fileID: 2916884127550031458}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1318981625027248051
 GameObject:
@@ -3487,9 +3492,9 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4387846304887574533}
-  - {fileID: 3683018706349806229}
+  - {fileID: 1287024752794824426}
+  - {fileID: 8914883667260326595}
   - {fileID: 4050906384970677984}
-  - {fileID: 2126086015}
   m_Father: {fileID: 225046082}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3656,12 +3661,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1250557840812006200}
-  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -7.33, y: 0, z: 0}
+  m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -3.92, y: -0, z: 4.25}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 2916884127550031458}
-  m_RootOrder: 1
+  m_Father: {fileID: 7415178777709120820}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &3828715257587309436
 Transform:
@@ -3671,11 +3676,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4497271462556352966}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.3110027, y: -0.049999937, z: -0.5730043}
+  m_LocalPosition: {x: 4.95, y: 0, z: 3.72}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 7415178777709120820}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4050906384970677984
 Transform:
@@ -3689,7 +3694,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2916884127550031458}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &4144899204329684180
 MeshFilter:
@@ -4323,12 +4328,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5380360204591299576}
-  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -7.51, y: 0, z: -3.48}
+  m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -3.44, y: -0, z: -6.39}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 7415178777709120820}
-  m_RootOrder: 3
+  m_Father: {fileID: 7753789828038302491}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &6570083548263390158
 MeshRenderer:
@@ -4598,11 +4603,11 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 8710399235678775089}
-  - {fileID: 8914883667260326595}
+  - {fileID: 8121865392038491168}
+  - {fileID: 3683018706349806229}
   - {fileID: 3828715257587309436}
-  - {fileID: 6371717625972818033}
   m_Father: {fileID: 225046082}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &7585007204063218812
 MeshRenderer:
@@ -4680,11 +4685,11 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 733601363643335686}
-  - {fileID: 8121865392038491168}
+  - {fileID: 6371717625972818033}
   - {fileID: 7024518135705778701}
-  - {fileID: 1287024752794824426}
+  - {fileID: 2126086015}
   m_Father: {fileID: 225046082}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &7900388394569455502
 GameObject:
@@ -4784,11 +4789,11 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5165509144728232408}
-  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 4.6536927, y: 0, z: 0}
+  m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 4.6536927, y: -0, z: -5.61}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 7753789828038302491}
+  m_Father: {fileID: 7415178777709120820}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &8243965987797064524
@@ -4965,11 +4970,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 422668960221002792}
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -5.67, y: -0, z: -5.72}
+  m_LocalPosition: {x: -6.91, y: -0, z: -3.69}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 7415178777709120820}
-  m_RootOrder: 1
+  m_Father: {fileID: 2916884127550031458}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &9077035087692670165
 MeshRenderer:
